@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(185, 255, 232);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(3, 131, 88);
+    
+}
+h1#principal{
+    text-align: center;
+    color: black;
+    background-color: whitesmoke
+}
+.secundarios{
+    color: rgb(63, 22, 22));
+    background-color: rgb(15, 53, 40);
+}
+h2{
+    color: rgb(160, 245, 216);
+    text-align: left;
+}
+.destaque{
+    background-color: orange;
+
+}
+p{
+    font-size: 18px 
+    
+}
