@@ -2,7 +2,7 @@
 
 @font-face{
     font-family: 'idroid';
-    src: url('idroid.otf'); format('opentype'), url('idroid.otf')
+    src: url('fontes/idroid.otf'); format('opentype'), url('idroid.otf')
     font-weight: normal;
     font-style: normal;   
 }
