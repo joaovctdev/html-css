@@ -34,9 +34,9 @@ header{
     background-color: black;
 }
 header  h1{
-    font-family: var(--fonte1);
+    font-family: var(--fonte3);
     padding-top: 50px;
-    font-size: 4em;
+    font-size: 5em;
     
 }
 header > p > a{
