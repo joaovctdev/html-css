@@ -4,12 +4,24 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(36, 36, 36);
 }
+
+:root{
+        --cor1: #10502f;
+        --cor2: #202124;
+        --cor3: #303134;
+        --corprimeiros: #4285f4;
+        --corliberta: #fa7b17;
+        --corsulamerica: #34a853;
+        --correbixamento: #ea4335;
+
+}
+ 
 *{
     margin: 0px;
     padding: 0px;
 }
 header{
-    background-color: #10502f;
+    background-color: var(--cor1);
     height: 80px;
     padding-bottom: 8px;
 }
@@ -43,38 +55,126 @@ nav>a:hover{
     background-color: #286244;
     border-bottom: 1px solid white;
 }
-table{
-    width: 630px;
-    background-color: #303134;
+div{
+    margin-top: 5px;
+    background-color: var(--cor3);
+    height: 40px;
     margin: auto;
+    width: 600px;
 }
-th{ 
+.titulo{
+    color: grey;
+    font-size: 10px;
+    background-color: var(--cor3);
+}
+
+table{
+    background-color: var(--cor2);
+    width: 600px;
+    height: 70vh;
+    margin: auto;
+    border-collapse: collapse;
+}
+h3{ 
+    padding: 7px 4px 3px 12px;
     text-indent: 10px;
     font-size: 10px;
     font-weight: normal;
     text-align: left;
     color: grey;
 }
+h3>p{ 
+    color: var(--corprimeiros);
+}
+h3>p>a{
+    color: var(--corprimeiros);
+    text-decoration: none;
+    font-size: 1.5em
+}
+tbody>tr{
+    background-color: var(--cor2)
+
+    margin: 1px 1px 1px 1px;
+}
 tbody>tr>td{ 
     color: grey;
     font-size: 10px;
+    border-top: 1px solid rgb(63, 63, 63);
+    
  
 }
 tbody>tr>td.clube{
+    border-top-width: 600px;
+    border-top: 1px solid rgb(63, 63, 63);
+    text-indent: 8px;
     text-align: left;
-    padding-top: 10px;
+    padding: 5px 0px 5px 10px;
+    font-size: 9px;
 }
-tbody>tr>td>p{
-    padding: 0px 0px 0px 445px;
-    margin: -14px 1px 1px 1px;
+tbody>tr>Td.pontos{
+    color: rgb(168, 167, 167);
+    font-size: 11px;
+    text-align: center;
+    padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 1px ;
+    
 }
-td>p>strong{
-    font-weight: normal;
-    padding-left: 15px;
-    padding-right: 15px;
+.times{
+    color: rgb(168, 167, 167);
+    padding: 5px 1px 5px 1px;
+    text-indent: 35px;
+    font-size: 13px;
 }
-td>p>a{
-    text-decoration: none;
-    color: grey;
-    padding: 1px 10px 1px 10px;
+.primeirostimes{
+    color: rgb(168, 167, 167);
+    border-left: 2px solid var(--corprimeiros);
+    padding: 5px 1px 5px 1px;
+    text-indent: 35px;
+    font-size: 13px;
 }
+.liberta{
+    color: rgb(168, 167, 167);
+    border-left: 2px solid var(--corliberta);
+    padding: 5px 1px 5px 1px;
+    text-indent: 35px;
+    font-size: 13px;
+}
+.sulamerica{
+    color: rgb(168, 167, 167);
+    border-left: 2px solid var(--corsulamerica);
+    padding: 5px 1px 5px 1px;
+    text-indent: 35px;
+    font-size: 13px;
+
+}
+.rebaixamento{
+    color: rgb(168, 167, 167);
+    border-left: 2px solid var(--correbixamento);
+    padding: 5px 1px 5px 1px;
+    text-indent: 35px;
+    font-size: 13px;
+}
+aside{
+    align-items: center;
+    margin: auto;
+    padding-left: 0px;
+    background-color: var(--cor2);
+    width: 600px;
+    height: 100px;
+}
+aside>ul{
+    width: 600px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #424548;
+    color: rgb(168, 167, 167);
+    font-size: 10px;
+    columns: 2;
+    text-indent: 10px;
+    margin: 6px 7px 0px 7px
+}
+aside>ul>li{
+    padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 1px;
+}
+
